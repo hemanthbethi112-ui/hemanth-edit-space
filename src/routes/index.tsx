@@ -124,11 +124,11 @@ function Index() {
             </p>
             <div className="flex gap-10 text-sm uppercase tracking-widest text-muted-foreground">
               <div>
-                <span className="display block text-3xl text-foreground">4+</span>
-                Years editing
+                <span className="display block text-3xl text-foreground">2+</span>
+                Years experience
               </div>
               <div>
-                <span className="display block text-3xl text-foreground">120+</span>
+                <span className="display block text-3xl text-foreground">30+</span>
                 Projects cut
               </div>
             </div>
