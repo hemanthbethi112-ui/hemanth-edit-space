@@ -76,9 +76,6 @@ const tools = [
   "After Effects",
   "DaVinci Resolve",
   "Photoshop",
-  "Illustrator",
-  "Blender",
-  "Audition",
   "CapCut",
 ];
 
