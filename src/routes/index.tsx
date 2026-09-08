@@ -13,14 +13,14 @@ export const Route = createFileRoute("/")({
       { title: "Hemanth Bethi — Video Editor & Motion Designer, Hyderabad" },
       {
         name: "description",
-        content:
-          "Portfolio of Hemanth Bethi, a Hyderabad-based video editor and motion designer crafting edits, motion graphics, color grading and sound design.",
+          content:
+            "Portfolio of Hemanth Bethi, a Hyderabad-based video editor and motion designer crafting edits, motion graphics and color grading.",
       },
       { property: "og:title", content: "Hemanth Bethi — Video Editor & Motion Designer" },
       {
         property: "og:description",
         content:
-          "Video editing, motion design, color grading and sound design portfolio 2026. Based in Hyderabad, working worldwide.",
+            "Video editing, motion design and color grading portfolio 2026. Based in Hyderabad, working worldwide.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
