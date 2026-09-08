@@ -13,14 +13,14 @@ export const Route = createFileRoute("/")({
       { title: "Hemanth Bethi — Video Editor & Motion Designer, Hyderabad" },
       {
         name: "description",
-        content:
-          "Portfolio of Hemanth Bethi, a Hyderabad-based video editor and motion designer crafting edits, motion graphics, color grading and sound design.",
+          content:
+            "Portfolio of Hemanth Bethi, a Hyderabad-based video editor and motion designer crafting edits, motion graphics and color grading.",
       },
       { property: "og:title", content: "Hemanth Bethi — Video Editor & Motion Designer" },
       {
         property: "og:description",
         content:
-          "Video editing, motion design, color grading and sound design portfolio 2026. Based in Hyderabad, working worldwide.",
+            "Video editing, motion design and color grading portfolio 2026. Based in Hyderabad, working worldwide.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -56,16 +56,6 @@ const skills = [
   },
   {
     n: "04",
-    title: "Sound Design",
-    body: "Mixing, SFX layering and music syncing so the cut lands as hard as it looks.",
-  },
-  {
-    n: "05",
-    title: "VFX & Compositing",
-    body: "Clean-ups, keying, tracking and screen replacements blended invisibly into the shot.",
-  },
-  {
-    n: "06",
     title: "Storytelling",
     body: "Scripting, storyboarding and shaping a message into something people actually finish watching.",
   },
@@ -151,7 +141,7 @@ function Index() {
         <div className="marquee-track">
           {[0, 1].map((k) => (
             <span key={k} className="display flex shrink-0 text-3xl md:text-5xl">
-              {["Video Editing", "Motion Design", "Color Grading", "Sound Design", "VFX"].map(
+              {["Video Editing", "Motion Design", "Color Grading"].map(
                 (t) => (
                   <span key={t} className="mx-6 flex items-center gap-6">
                     {t}
