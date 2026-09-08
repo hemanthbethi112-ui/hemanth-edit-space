@@ -55,16 +55,6 @@ const skills = [
     body: "Cinematic looks, shot matching and mood-driven grades that give every frame a signature.",
   },
   {
-    n: "04",
-    title: "Sound Design",
-    body: "Mixing, SFX layering and music syncing so the cut lands as hard as it looks.",
-  },
-  {
-    n: "05",
-    title: "VFX & Compositing",
-    body: "Clean-ups, keying, tracking and screen replacements blended invisibly into the shot.",
-  },
-  {
     n: "06",
     title: "Storytelling",
     body: "Scripting, storyboarding and shaping a message into something people actually finish watching.",
