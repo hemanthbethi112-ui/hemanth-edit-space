@@ -55,7 +55,7 @@ const skills = [
     body: "Cinematic looks, shot matching and mood-driven grades that give every frame a signature.",
   },
   {
-    n: "06",
+    n: "04",
     title: "Storytelling",
     body: "Scripting, storyboarding and shaping a message into something people actually finish watching.",
   },
@@ -141,7 +141,7 @@ function Index() {
         <div className="marquee-track">
           {[0, 1].map((k) => (
             <span key={k} className="display flex shrink-0 text-3xl md:text-5xl">
-              {["Video Editing", "Motion Design", "Color Grading", "Sound Design", "VFX"].map(
+              {["Video Editing", "Motion Design", "Color Grading"].map(
                 (t) => (
                   <span key={t} className="mx-6 flex items-center gap-6">
                     {t}
